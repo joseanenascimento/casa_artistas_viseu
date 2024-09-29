@@ -63,7 +63,7 @@ window.onload = function() {
     for (let i = 1; i <= imageCount; i++) {
       const img = document.createElement('img');
       img.src = `${imageFolderPath}${imagesNames[i]}`; // Assuming your images are named like image1.jpg, image2.jpg, etc.
-      img.alt = imagesNames[i];
+      img.alt = "Casa dos Artistas. O melhor alojamento local em Viseu";
       img.className = "gallery-item"
       
       // Append each image to the gallery
